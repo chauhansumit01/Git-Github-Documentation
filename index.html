@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="this site contains documentation about git and github">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+        body{
+    background-color: dimgray;
+    color: white;
+            }
+    </style>
+    <body>
+        <h1>Quick documentation for git and github</h1>
+        <ol>
+            <h1>What is git ?</h1>
+            <br>
+            <pre>git is a version control system where files are tracked and modified accordingly easing our lives :)
+
+            </pre>
+
+
+            <h1><li>  3 Stages </li></h1>
+            <p> the file can be in either of the three stages</p>
+            <pre>
+                modified
+                staged 
+                commited
+
+                therrefore the workflow is: 
+
+                working directoery -> stagign area -> git repository
+
+
+
+                small description :
+                
+                -file is modified 
+                - then the files are selected to be a part of next commit 
+                - which adds them to the staging ares 
+                - then a commit is made which stores the changes 
+                of the new version of the file
+                </pre>
+
+                <h1><li> Installing git</li></h1>
+                <pre>--install git from the official website  :)-- </pre>
+
+                <h1><li> The commands -1</li></h1>
+                <pre><ul>
+                    after installation -- make an empty folder to begin using git -- open that folder -- right click thrn open --git bash
+                    a terminal should appear -- type
+
+                    <li> git --version -></li> if this gives the version output , git is successfully installed .
+                    
+                    setting up--initial customisaton--
+                    git contains a git config file which can be updated 
+                    eg
+                    <li> git config --list -></li> sous the list of info curent stored
+                    moreover the changes can be made in two ways --globally and --local
+                    in global all repo in the system will get updated with the data whereas 
+                    in local the changes are made to the current repo.
+                    
+                    setting username and email into git --
+                    <li> git config--global user.name "yourNameHere" -></li> updates the name
+                    <li> git config--global user.email "yourEmail"   -></li> updates the email
+
+                    as the above commands are passed globally this setting has to be done once
+                    <li>git init -></li> creates a repo in the current directoery
+
+                    by default the branch is set to <b>master</b> , to change the branch name use 
+                    <li> git config --init defaultBranch main -> </li> changes the branch name to <b>main</b>
+
+                    checking the config file contaning updates till now
+                    <li>git config --list -></li> shows the contents
+
+                    how to get <b>help</b> use 
+                    <li>git commandName --help -></li> shows a complete description of the command
+
+                </ul></pre>
+
+                <h1><li> The Commands - 2</li></h1>
+                <pre><ul>
+                    <li>git init -></li> initialises the directory .git into the current directory
+                    <li>git add fullFileName or --all -></li> this adds files to get tracked
+                    <li>git commit -m "version 1"-></li> adds little description to the commit made
+                    <li>git clone fullUrlOrPath -></li> clones or downloads the entire repo from an extrnal source
+                    
+                    
+
+
+
+
+
+
+                </ul></pre>
+
+
+
+
+
+        </ol>
+    
+        
+        
+    </body>
+</html>
