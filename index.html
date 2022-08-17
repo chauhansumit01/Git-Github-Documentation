@@ -16,7 +16,7 @@
             }
     </style>
     <body>
-        <h1>Quick documentation for git and github</h1>
+        <h1>Quick revision documentation for git and github</h1> <h6>credits - progit book by Scott Chacon and Ben Straub</h6>
         <ol>
             <h1>What is git ?</h1>
             <br>
@@ -48,7 +48,7 @@
                 </pre>
 
                 <h1><li> Installing git</li></h1>
-                <pre>--install git from the official website  :)-- </pre>
+                <pre>--click <a href="https://git-scm.com/downloads"> <strong>here</strong> </a>  to download git form the official website  :)-- </pre>
 
                 <h1><li> The commands -1</li></h1>
                 <pre><ul>
@@ -90,14 +90,27 @@
                     <li>git commit -m "version 1"-></li> adds little description to the commit made
                     <li>git clone fullUrlOrPath -></li> clones or downloads the entire repo from an extrnal source
                     
+                    <strong>any file in the repo can be in one of the two stages -- tracked or
+                                                                         -- untracked </strong>
+                    <li>git status -></li> tells about the status of the files whether tey are being tracked or untracked
+                    <li>git add fileName.extn -></li> adds a file to the tracking area 
                     
+<strong>git add command can be used to do multiple things like tracking files , staging files and adding files to get tracked</strong>
 
-
-
-
-
-
-                </ul></pre>
+                  <li>git status -s -></li> shows the status of the repo in a more simplified ways
+        <strong> the notation of the simplified view -A -> the files that have been addded , M-> Modified files </strong>     
+            
+        <li>git diff -></li> gives a more simplified <strong>status</strong> of the files than the git status command
+         <li>git commit -></li> adds a commit to the files in the staging area 
+         <li>git commit -m "add the message here"-></li>commits with an added message 
+         <li>git commit -a -m "this skips the staging process and directly commits the files"</li>      
+         <li>git em fileName.ext -></li> removes the files from the staging area
+         <li>git log-></li>lists the commit history</ul></pre>
+         
+         <h1><li>Working with remote files</li></h1>
+         <pre>
+            
+         </pre>
 
 
 
